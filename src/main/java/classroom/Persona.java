@@ -11,7 +11,7 @@ public class Persona {
         //cedula = 3;
     }*/
     public Persona() {
-    	this(0,"");}  
+    	cedula=0;}  
     
     public Persona(long cedula, String nombre) {
         this.cedula = cedula;
